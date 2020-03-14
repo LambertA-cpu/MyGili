@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "781045875597",
+    "firebase_url": "https://gili-app-a74a0.firebaseio.com",
+    "project_id": "gili-app-a74a0",
+    "storage_bucket": "gili-app-a74a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781045875597:android:b09eec91bba28fe9d973c4",
+        "android_client_info": {
+          "package_name": "com.example.gili"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781045875597-9k2oi336jnne48ph6d2hmttue5ahcvu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gili",
+            "certificate_hash": "faa561c62d1cb1967790c975c41f0be9ce8e728d"
+          }
+        },
+        {
+          "client_id": "781045875597-boqqek0vnltlahhnaftodept9empa8jm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gili",
+            "certificate_hash": "2da51801f61a18d08568656d1e15bfba33c7b41c"
+          }
+        },
+        {
+          "client_id": "781045875597-jqbnb3e88mjjee8q6i3iqtploe0hn7ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATu5YxzTktjhdPqfiRH8u_j8rmXXWcVrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781045875597-jqbnb3e88mjjee8q6i3iqtploe0hn7ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781045875597:android:009a217bc84860a0d973c4",
+        "android_client_info": {
+          "package_name": "com.example.mygili"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781045875597-no5tg8vour4hppccj8ssvevp5g0lukeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mygili",
+            "certificate_hash": "faa561c62d1cb1967790c975c41f0be9ce8e728d"
+          }
+        },
+        {
+          "client_id": "781045875597-jqbnb3e88mjjee8q6i3iqtploe0hn7ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATu5YxzTktjhdPqfiRH8u_j8rmXXWcVrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781045875597-jqbnb3e88mjjee8q6i3iqtploe0hn7ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
