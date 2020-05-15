@@ -1,4 +1,4 @@
-package com.example.mygili;
+package com.example.gili;
 
 import android.content.Context;
 

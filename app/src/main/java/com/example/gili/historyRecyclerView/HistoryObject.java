@@ -1,4 +1,4 @@
-package HistoryRecycleView;
+package com.example.gili.historyRecyclerView;
 
 public class HistoryObject {
         private String cleanId;

@@ -1,5 +1,27 @@
 <resources>
     <string name="app_name">My Gili</string>
     <string name="email">Email</string>
-    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_cleaner_map">Map</string>
+    <string name="google_maps_key">AIzaSyDzN4Qk4QNpC5jqczz47BIER9uUGegYraU</string>
+    <string name="title_activity_customer_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_cleaner_settings">Settings</string>
+    <string name="attended_customer">attended customer</string>
+    <string name="settings">Settings</string>
+    <string name="payout">payout</string>
+    <string name="call_cleaner">call cleaner</string>
 </resources>

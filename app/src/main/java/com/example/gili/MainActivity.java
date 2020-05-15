@@ -1,4 +1,4 @@
-package com.example.mygili;
+package com.example.gili;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import static com.example.mygili.R.layout.activity_main;
+import static com.example.gili.R.layout.activity_main;
 
 public class MainActivity extends AppCompatActivity {
     private Button mCleaner,mCustomer;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         mCleaner.setOnClickListener (new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this, CleanerLogin.class);
+                Intent intent = new Intent(MainActivity.this, CleanerLoginActivity.class);
                 startActivity(intent);
                 return;
             }

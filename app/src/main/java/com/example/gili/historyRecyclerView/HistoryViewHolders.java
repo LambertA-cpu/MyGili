@@ -1,13 +1,16 @@
-package HistoryRecycleView;
+package com.example.gili.historyRecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+//import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.gili.HistorySingleActivity;
+import com.example.gili.R;
+
 
 public class HistoryViewHolders extends RecyclerView.ViewHolder implements View.OnClickListener {
 

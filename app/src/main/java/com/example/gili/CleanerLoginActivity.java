@@ -19,7 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class CleanerLogin extends AppCompatActivity {
+public class CleanerLoginActivity extends AppCompatActivity {
     private EditText mEmail, mPassword;
     private Button mLogin;
     String TAG ="Check";
@@ -37,7 +37,7 @@ public class CleanerLogin extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if (user != null) {
-                    Intent intent = new Intent(CleanerLogin.this, CleanerMapActivity.class);
+                    Intent intent = new Intent(CleanerLoginActivity.this, CleanerMapActivity.class);
                     startActivity(intent);
                     finish();
                     return;
@@ -56,11 +56,11 @@ public class CleanerLogin extends AppCompatActivity {
             public void onClick(View v) {
                 final String email = mEmail.getText().toString();
                 final String password = mPassword.getText().toString();
-                mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(CleanerLogin.this, new OnCompleteListener<AuthResult>() {
+                mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(CleanerLoginActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (!task.isSuccessful()) {
-                            Toast.makeText(CleanerLogin.this,"Sign up error occurred ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(CleanerLoginActivity.this,"Sign up error occurred ", Toast.LENGTH_SHORT).show();
                         } else {
                             String user_id;
                             user_id = mAuth.getCurrentUser().getUid();
@@ -77,11 +77,11 @@ public class CleanerLogin extends AppCompatActivity {
             public void onClick(View v) {
                 final String email = mEmail.getText().toString();
                 final String password = mPassword.getText().toString();
-                mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(CleanerLogin.this, new OnCompleteListener<AuthResult>() {
+                mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(CleanerLoginActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (!task.isSuccessful()) {
-                            Toast.makeText(CleanerLogin.this, "Sign in error occurred ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(CleanerLoginActivity.this, "Sign in error occurred ", Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
